@@ -65,10 +65,10 @@
       
       // Making an API call (request)
       // and getting the response back
-      const response = await fetch(api_url);
+      const response = fetch(api_url);
       
       // Parsing it to JSON format
-      const data = await response.json();
+      const data = response.json();
       console.log(data.results);</script>
 </body>
 </html>
